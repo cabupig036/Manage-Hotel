@@ -1,0 +1,124 @@
+<head>	
+<style>	
+.center2 {
+  text-align: center;
+  font-size: 100px;
+  font-family:Impact, Charcoal, sans-serif;
+  background-color: green;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+</style>
+<p class="center2"><a href="file:///E:/DUAN/Tr%C6%B0%E1%BB%9Dng/Admin.html">ADMIN</a></p>
+<link rel="icon" href="https://www.iconfinder.com/data/icons/travel-3-1/48/134-512.png">
+<p class="center3">ADD USER IN HERE</p>
+</head>
+<body>
+<style>
+.center1 {
+  text-align: center;
+  font-size: 35px;
+  font-family:Impact, Charcoal, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+</style>
+<style>
+.center3 {
+  text-align: center;
+  font-size: 35px;
+  font-family:Impact, Charcoal, sans-serif;
+}
+</style>
+<style>
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}	
+</style>	
+    <tr>
+        <h3>COUNTRY</font></td>
+    </tr>
+<select name="country[]" > <!-- chọn nhiều quốc gia, nhiều châu lục -->
+    <optgroup label="Châu Á" value="chau_a">
+        <option name="chau_luc[]" value="1">Việt Nam</option>
+        <option value="2">Lào</option>
+        <option value="3">Campuchia</option>
+    </optgroup>
+    <optgroup name="chau_luc[]" label="Châu Mỹ" value="chau_my">
+        <option value="4">USA</option>
+        <option value="5">Canada</option>
+        <option value="6">Mexico</option>
+    </optgroup>
+</select>
+<p>Thông tin đính kèm</p>
+<form action="example.com/upload" enctype="multipart/form-data">
+   <label for="id_file_name">Chọn File:</label>
+    <input type="file" name="file_name" id="id_file_name">
+    <input type="submit" value="Upload File" name="submit">
+</form>
+<table>
+    <tr>
+        <td bgcolor="#7ab6de" ><font color="#ffffff">INFORMATION</font></td>
+    </tr>
+    <tr>
+        <td height="20px"></td>
+    </tr>
+    <tr>
+        <td>
+            <label><b>FullName (*)</b></label>  
+        </td>
+        <td>
+            <input type="text" maxlength="80" placeholder="Họ và tên"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label><b>Số điện thoại (*)</b></label> 
+        </td>
+        <td>
+            <input type="text" maxlength="15"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label><b>Địa chỉ email (*)</b></label> 
+        </td>
+        <td>
+            <input type="text" maxlength="80" placeholder="...@gmail.com"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label><b>Nam/Nữ (*)</b></label>    
+        </td>
+        <td>
+            <span>Nam</span><input type="radio" name="customer_gender" value="nam">
+            <span>Nữ</span><input type="radio" name="customer_gender" value="nu">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label><b>Nội dung (*)</b></label>
+        </td>
+        <td>
+            <textarea cols="22" rows="8"></textarea>
+        </td>
+    </tr>
+</table>
+<button class="button"><a href="file:///E:/DUAN/Tr%C6%B0%E1%BB%9Dng/List%20User.html">SUBMIT</a></button>
+</p>
+</body>
+</html>
